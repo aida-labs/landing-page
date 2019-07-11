@@ -24,8 +24,8 @@ class Footer extends React.Component {
         <div className="footerStick">
           {/*<hr style={{color: "#6CBEFB", backgroundColor: "#6CBEFB", height: 1, width: 250}}/>*/}
         {/*<img src="/static/icon_32.png" rel="preload" className="login-image" />*/}
-          <a style={{color: "#999999", margin: 10, fontSize: 13}}>Terms of Service</a>
-          <a style={{color: "#999999", margin: 10, fontSize: 13}}>Privacy Policy</a>
+          <a href="/static/terms.pdf" target="_blank" style={{color: "#999999", margin: 10, fontSize: 13}}>Terms of Service</a>
+          <a href="/static/privacy.pdf" target="_blank" style={{color: "#999999", margin: 10, fontSize: 13}}>Privacy Policy</a>
         </div>
       </div>
     );
