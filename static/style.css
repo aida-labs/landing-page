@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+h5 {
+  font-family: 'Rubik', sans-serif;
+}
+
+a{
+  font-family: 'Rubik', sans-serif;
+}
+
+button{
+  font-family: 'Rubik', sans-serif;
+}
+
+p{
+  font-family: 'Rubik', sans-serif;
+}
+
+/*Give the header a height of 120*/
+.headerStyle {
+  height: 69px;
+  /* max-width: 700px; */
+  /* display: flex;
+  justify-content: center; */
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 5;
+  background-color: black;
+}
+
+.videoStyle {
+  height: 600px;
+  width: 100%;
+  background-color: #EEF0F2;
+  padding: 60px 0px 0px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.heroStyle {
+  height: 650px;
+  width: 100%;
+  background-color: black;
+  padding: 69px 0px 0px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.greenButton {
+  color: white;
+  background-color: #00CC66;
+}
+
+.navbar {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100%;
+  max-width: 1034px;
+  margin: 0px auto;
+}
+
+.heroText{
+  color: white;
+  padding-top: 150px;
+  font-size: 62px;
+}
+
+.signUpStyle {
+  height: 300px;
+  width: 100%;
+  padding-top: 70px;
+  background-color: black;
+  text-align: center;
+}
+
+.footerStyle {
+  height: 120px;
+  width: 100%;
+  background-color: black;
+  position: relative;
+  border-top: 1px solid #343434;
+}
+
+.footerLogo{
+  width: 40%;
+  margin-left: 120px;
+  padding-top: 20px;
+}
+
+.footerStick{
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+.landingPage {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: stretch;
+}
+
