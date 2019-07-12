@@ -105,7 +105,7 @@ p{
 .heroText{
   color: white;
   padding-top: 100px;
-  font-size: 62px;
+  font-size: 58px;
 
 }
 
@@ -123,6 +123,7 @@ p{
 .heroButtons {
   display: inline-block;
   text-align: center;
+  padding-top: 20px;
 }
 
 @media (max-width: 600px) {
@@ -144,7 +145,7 @@ p{
 }
 
 .footerStyle {
-  height: 120px;
+  height: 140px;
   width: 100%;
   background-color: black;
   position: relative;
@@ -154,7 +155,7 @@ p{
 .footerLogo{
   width: 90%;
   margin-left: 10%;
-  padding-top: 10px;
+  padding-top: 30px;
 }
 
 .footerStick{

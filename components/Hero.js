@@ -21,10 +21,10 @@ class Header extends React.Component {
         <h5 className="heroText">On demand clusters<br/> for your Spark Applications</h5>
         <div className="heroButtons">
           <div style={{display: "inline-block", margin: 10}}>
-            <Button  href="https://app.aidalabs.io/signup" size="lg" style={{color: "white", backgroundColor: "#00CC66", border: "none"}}>Get started for free</Button>
+            <Button  href="https://app.aidalabs.io/signup" size="md" style={{color: "white", backgroundColor: "#00CC66", border: "none", width: 200, height: 50, lineHeight: "35px"}}>Get started for free</Button>
           </div>
           <div style={{display: "inline-block", margin: 10}}>
-            <Button  href="#" size="lg" style={{color: "white", backgroundColor: "#00CC66", border: "none"}} >Explore the docs</Button>
+            <Button  href="#" size="md" style={{color: "white", backgroundColor: "#00CC66", border: "none", width: 200, height: 50, lineHeight: "35px" }} >Explore the docs</Button>
           </div>  
         </div>
       </div>

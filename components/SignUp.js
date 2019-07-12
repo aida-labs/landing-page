@@ -22,7 +22,7 @@ class SignUp extends React.Component {
         <hr style={{color: "#6CBEFB", backgroundColor: "#6CBEFB", height: 1, width: 100}}/>
         <h6 style={{color:"white"}}>Let us handle the hard stuff</h6>
         <div style={{marginTop: 15}}>
-          <Button size="lg" href="https://app.aidalabs.io/signup" style={{color: "white", backgroundColor: "#00CC66", border: "none"}}>Get started for free</Button>
+          <Button size="md" href="https://app.aidalabs.io/signup" style={{color: "white", backgroundColor: "#00CC66", border: "none", width: 200, height: 50, lineHeight: "35px"}}>Get started for free</Button>
         </div>
 
       </div>
@@ -32,3 +32,4 @@ class SignUp extends React.Component {
 }
 
 export default SignUp;
+
