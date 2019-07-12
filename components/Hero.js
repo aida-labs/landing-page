@@ -19,9 +19,9 @@ class Header extends React.Component {
     return(
       <div className="heroStyle">
         <h5 className="heroText">On demand clusters<br/> for your Spark Applications</h5>
-        <div>
+        <div className="heroButtons">
           <Button href="https://app.aidalabs.io/signup" size="lg" style={{color: "white", backgroundColor: "#00CC66", border: "none"}}>Get started for free</Button>
-          <Button href="#" size="lg"style={{margin: 20, color: "white", backgroundColor: "#00CC66", border: "none"}} >Explore the docs</Button>
+          <Button href="#" size="lg" style={{margin: 20, color: "white", backgroundColor: "#00CC66", border: "none"}} >Explore the docs</Button>
         </div>
       </div>
     );

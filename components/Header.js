@@ -18,7 +18,7 @@ class Header extends React.Component {
     const {user, logout} = this.props;
     return(
       <div className="headerStyle">
-        <Navbar expand="sm">
+        <Navbar variant="dark" expand="sm">
           <Navbar.Brand href="https://aidalabs.io"><img style={{height: "auto", width: "150px"}} src="/static/logo_white.png" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">

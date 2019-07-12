@@ -19,8 +19,10 @@ class Video extends React.Component {
     const {user, logout} = this.props;
     return(
       <div className="videoStyle">
-        <h4 style={{marginBottom: 20}}>Deploy right from the command line</h4>
-        <Vimeo video={83065681} width={640} height={400}/>
+        <h5 style={{marginBottom: 20}}>Deploy right from the command line</h5>
+        <div>
+          <Vimeo className="video" video={83065681}/>
+        </div>
       </div>
     );
   }

@@ -21,13 +21,14 @@ p{
   font-family: 'Rubik', sans-serif;
 }
 
+
 /*Give the header a height of 120*/
 .headerStyle {
   height: 69px;
   /* max-width: 700px; */
   /* display: flex;
   justify-content: center; */
-  position: fixed;
+  /*position: fixed;*/
   top: 0px;
   left: 0px;
   width: 100%;
@@ -46,6 +47,13 @@ p{
   align-items: stretch;
 }
 
+@media (max-width: 600px) {
+  .videoStyle {
+    height: 400px;
+  }
+
+}
+
 .heroStyle {
   height: 650px;
   width: 100%;
@@ -55,6 +63,21 @@ p{
   display: flex;
   flex-direction: column;
   align-items: stretch;
+}
+
+.video{
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0;
+  height: 0;
+  overflow: hidden;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .greenButton {
@@ -70,12 +93,32 @@ p{
   max-width: 1034px;
   margin: 0px auto;
 }
-
 .heroText{
   color: white;
   padding-top: 150px;
   font-size: 62px;
+
 }
+
+
+
+@media (max-width: 600px) {
+  .heroText {
+    font-size: 40px;
+    color: white;
+    padding-top: 150px;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .heroButtons  {
+
+  }
+
+
+}
+
 
 .signUpStyle {
   height: 300px;
@@ -94,8 +137,8 @@ p{
 }
 
 .footerLogo{
-  width: 40%;
-  margin-left: 120px;
+  width: 100%;
+  margin-left: 10%;
   padding-top: 20px;
 }
 
