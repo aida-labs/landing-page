@@ -6,6 +6,14 @@ body {
   overflow-x: hidden;
 }
 
+
+@media (max-width: 600px) {
+  body {
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+  }
+}
+
 h5 {
   font-family: 'Rubik', sans-serif;
 }
