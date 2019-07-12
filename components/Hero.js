@@ -24,7 +24,7 @@ class Header extends React.Component {
             <Button  href="https://app.aidalabs.io/signup" size="md" style={{color: "white", backgroundColor: "#00CC66", border: "none", width: 200, height: 50, lineHeight: "35px"}}>Get started for free</Button>
           </div>
           <div style={{display: "inline-block", margin: 10}}>
-            <Button  href="#" size="md" style={{color: "white", backgroundColor: "#00CC66", border: "none", width: 200, height: 50, lineHeight: "35px" }} >Explore the docs</Button>
+            <Button  href="https://aidalabs.io/docs" target="_blank" size="md" style={{color: "white", backgroundColor: "#00CC66", border: "none", width: 200, height: 50, lineHeight: "35px" }} >Explore the docs</Button>
           </div>  
         </div>
       </div>
