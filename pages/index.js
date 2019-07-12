@@ -12,6 +12,7 @@ export default function Index() {
   return (
     <div className="landingPage">
       <Header />
+      <Hero />
       <Video />
       <SignUp />
       <Footer />
