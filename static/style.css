@@ -3,6 +3,7 @@
 
 body {
   font-family: 'Rubik', sans-serif;
+  overflow-x: hidden;
 }
 
 h5 {
@@ -111,9 +112,15 @@ p{
 
 }
 
+.heroButtons {
+  display: inline-block;
+  text-align: center;
+}
+
 @media (max-width: 600px) {
   .heroButtons  {
-
+    display: inline-block;
+    text-align: center;
   }
 
 
