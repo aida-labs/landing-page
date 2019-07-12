@@ -20,9 +20,6 @@ class Video extends React.Component {
     return(
       <div className="videoStyle">
         <h5 style={{marginBottom: 20}}>Deploy right from the command line</h5>
-        <div>
-          <Vimeo className="video" video={83065681}/>
-        </div>
       </div>
     );
   }
