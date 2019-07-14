@@ -46,7 +46,7 @@ p{
 }
 
 .videoStyle {
-  height: 450px;
+  height: 600px;
   width: 100%;
   background-color: #EEF0F2;
   padding: 60px 0px 0px 0px;
@@ -56,9 +56,9 @@ p{
   align-items: stretch;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .videoStyle {
-    height: 450px;
+    height: 400px;
   }
 
 }
@@ -74,12 +74,25 @@ p{
   align-items: stretch;
 }
 
+.vimeoBox{
+  width: 640px;
+  height: 480px;
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+  .vimeoBox {
+    width: 320px;
+    height: 240px;
+    margin: auto;
+  }
+}
+
 .video{
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 0;
   height: 0;
-  overflow: hidden;
   iframe {
     position: absolute;
     top: 0;
