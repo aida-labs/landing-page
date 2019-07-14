@@ -42,7 +42,7 @@ p{
   left: 0px;
   width: 100%;
   z-index: 5;
-  background-color: black;
+  background-color: #161616;
 }
 
 .videoStyle {
@@ -66,7 +66,7 @@ p{
 .heroStyle {
   height: 650px;
   width: 100%;
-  background-color: black;
+  background-color: #161616;
   padding: 69px 0px 0px 0px;
   text-align: center;
   display: flex;
@@ -141,14 +141,14 @@ p{
   height: 300px;
   width: 100%;
   padding-top: 70px;
-  background-color: black;
+  background-color: #161616;
   text-align: center;
 }
 
 .footerStyle {
   height: 140px;
   width: 100%;
-  background-color: black;
+  background-color: #161616;
   position: relative;
   border-top: 1px solid #343434;
 }
