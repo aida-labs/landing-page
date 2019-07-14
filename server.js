@@ -1,5 +1,6 @@
 const express = require('express')
 const next = require('next')
+const redirectToHTTPS = require('express-http-to-https').redirectToHTTPS;
     
 const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
@@ -10,6 +11,8 @@ const port = process.env.PORT || 3000;
 app.prepare()
 .then(() => {
   const server = express()
+
+  server.use(redirectToHTTPS([/localhost:(\d{4})/, /\.ngrok\.io$/], [], 301));
 
   server.use(express.static(__dirname + '/static/docs/'));
   server.get('/docs',  function(req,res) {
