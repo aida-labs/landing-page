@@ -26,7 +26,7 @@ class Header extends React.Component {
               <Nav.Link style={{color: "white"}}  href="https://blog.aidalabs.io/">Blog</Nav.Link>
             </Nav>
             <Nav style={{color: "white"}} >
-              <Nav.Link style={{color: "white"}}  href="https://join.slack.com/t/aidalabs/shared_invite/enQtNjkzOTk0NjM5MDc5LTNiZGRjNTEzMGM1NWM1YWUwYWE4Y2EzYTZlYzRjODI5N2I0MjJmZGUzNDcwMDM1ZjRjZWY2OWI1Y2M0NmVjMGU">Community</Nav.Link>
+              <Nav.Link style={{color: "white"}}  href="https://discord.gg/p3UdqS8">Community</Nav.Link>
             </Nav>
             <Nav style={{color: "white", paddingRight: 10}} >
               <Nav.Link style={{color: "white"}}  href="https://app.aidalabs.io/login">Log In</Nav.Link>
