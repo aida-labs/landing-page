@@ -17,15 +17,22 @@ class Header extends React.Component {
   render() {
     const {user, logout} = this.props;
     return(
-      <div className="heroStyle">
-        <h5 className="heroText">On demand clusters<br/> for your Spark Applications</h5>
-        <div className="heroButtons">
-          <div style={{display: "inline-block", margin: 10}}>
-            <Button  href="https://app.aidalabs.io/signup" size="md" style={{color: "white", backgroundColor: "#00CC66", border: "none", width: 200, height: 50, lineHeight: "35px"}}>Get started for free</Button>
+      <div className="heroStyleBackground">
+        <div className="heroStyle">
+          <div className="heroLeft">
+            <h5 className="heroText">On demand clusters<br/> for your Spark Applications</h5>
+            <div className="heroButtons">
+              <div style={{display: "inline-block", margin: 10}}>
+                <button className="btn-hero" href="https://app.aidalabs.io/signup" >Get started for free</button>
+              </div>
+              <div style={{display: "inline-block", margin: 10}}>
+                <button  className="btn-hero" href="https://www.aidalabs.io/docs" target="_blank">Explore the docs</button>
+              </div>  
+            </div>
           </div>
-          <div style={{display: "inline-block", margin: 10}}>
-            <Button  href="https://www.aidalabs.io/docs" target="_blank" size="md" style={{color: "white", backgroundColor: "#00CC66", border: "none", width: 200, height: 50, lineHeight: "35px" }} >Explore the docs</Button>
-          </div>  
+          <div className="heroRight">
+            <img className="gif" src="/static/vid.gif" />
+          </div>
         </div>
       </div>
     );

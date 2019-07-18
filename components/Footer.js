@@ -21,11 +21,19 @@ class Footer extends React.Component {
           <img width="40px" src="/static/icon_160.png" rel="preload" className="login-image" />
           <p style={{color:"white", fontSize: 13, paddingTop: 5}}>© 2019 Aida Labs, LLC. All rights reserved.</p>
         </div>
-        <div className="footerStick">
+        <div className="footerPages">
           {/*<hr style={{color: "#6CBEFB", backgroundColor: "#6CBEFB", height: 1, width: 250}}/>*/}
         {/*<img src="/static/icon_32.png" rel="preload" className="login-image" />*/}
-          <a href="/static/terms.pdf" target="_blank" style={{color: "#999999", margin: 10, fontSize: 13}}>Terms of Service</a>
-          <a href="/static/privacy.pdf" target="_blank" style={{color: "#999999", margin: 10, fontSize: 13}}>Privacy Policy</a>
+          <p style={{color: "white", margin: 0, padding: 0}}>Pages</p>
+          <a href="https://www.aidalabs.io/docs" target="_blank" style={{color: "#999999", fontSize: 13}}>Docs</a><br/>
+          <a href="https://discord.gg/p3UdqS8" target="_blank" style={{color: "#999999",fontSize: 13}}>Community</a><br/>
+          <a href="https://blog.aidalabs.io/" target="_blank" style={{color: "#999999",fontSize: 13}}>Blog</a>
+
+        </div>
+        <div className="footerResources">
+          <p style={{color: "white", margin: 0, padding: 0}}>Resources</p>
+          <a href="/static/terms.pdf" target="_blank" style={{color: "#999999", fontSize: 13}}>Terms of Service</a><br/>
+          <a href="/static/privacy.pdf" target="_blank" style={{color: "#999999",fontSize: 13}}>Privacy Policy</a>
         </div>
       </div>
     );
