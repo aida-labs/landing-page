@@ -26,7 +26,7 @@ class Footer extends React.Component {
         {/*<img src="/static/icon_32.png" rel="preload" className="login-image" />*/}
           <p style={{color: "white", margin: 0, padding: 0}}>Pages</p>
           <a href="https://www.aidalabs.io/docs" target="_blank" style={{color: "#999999", fontSize: 13}}>Docs</a><br/>
-          <a href="https://discord.gg/p3UdqS8" target="_blank" style={{color: "#999999",fontSize: 13}}>Community</a><br/>
+          <a href="https://discord.gg/p3UdqS8" target="_blank" style={{color: "#999999",fontSize: 13}}>Discord</a><br/>
           <a href="https://blog.aidalabs.io/" target="_blank" style={{color: "#999999",fontSize: 13}}>Blog</a>
 
         </div>
