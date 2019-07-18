@@ -15,8 +15,13 @@ body {
 }
 
 h5 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik Medium', sans-serif;
 }
+
+h4 {
+  font-family: 'Rubik Light', sans-serif;
+}
+
 
 a{
   font-family: 'Rubik', sans-serif;
@@ -68,27 +73,29 @@ p{
 }
 
 .heroStyle {
-  height: 700px;
-  width: 70%;
+  height: 600px;
+  max-width: 1034px;
   margin: 0px auto;
   background-color: #161616;
-  padding: 69px 0px 0px 0px;
+  /* padding: 69px 0px 0px 0px; */
   display: flex;
-  position: relative;
-  align-items: stretch;
+  /* position: relative; */
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media (max-width: 600px) {
   .heroStyle {
     text-align: center;
     display: flex;
+    height: 900px;
     flex: 1;
     flex-direction: column;
   }
 }
 
 .heroLeft{
-  width: 50%;
+  width: 48%;
 }
 @media (max-width: 600px) {
   .heroLeft {
@@ -97,7 +104,9 @@ p{
 }
 
 .gif{
-  box-shadow: 0px 10px 30px #333333;
+  box-shadow: 2px 2px 10px #3B3D34;
+  border-radius: 5px;
+  width: 100%;
 }
 
 @media (max-width: 600px) {
@@ -109,8 +118,8 @@ p{
 
 
 .heroRight{
-  
-  width: 30%;
+  width: 48%;
+  /* margin: 80px 0px 0px 0px; */
 
 }
 
@@ -125,7 +134,7 @@ p{
 .btn-hero{
   color: white;
   background-color: #00CC66;
-  box-shadow: 0px 10px 30px #333333;
+  box-shadow: 0px 10px 10px #3B3D34;
   border: none;
   width: 175px;
   height: 45px;
@@ -184,9 +193,15 @@ p{
 
 .heroText{
   color: white;
-  padding-top: 100px;
+  /* padding-top: 100px; */
   font-size: 36px;
+  font-weight: bold;
+}
 
+.heroSubText{
+  color: white;
+  padding-top: 10px;
+  font-size: 20px;
 }
 
 
