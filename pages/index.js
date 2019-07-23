@@ -22,9 +22,10 @@ export default class Index extends React.Component {
   render() {
     return (
       <div className="landingPage">
+        <div class="hero-bg"></div>
         <Header />
         <Hero />
-        <Video />
+        {/* <Video /> */}
         <SignUp />
         <Footer />
 
