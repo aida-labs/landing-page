@@ -20,8 +20,8 @@ class Header extends React.Component {
       <div className="heroStyleBackground">
         <div className="heroStyle">
           <div className="heroLeft">
-            <h5 className="heroText">Apache Spark clusters<br/> for your data applications.</h5>
-            <h4 className="heroSubText">Spend more time programming and less time configuring. One simple command to deploy and access your jobs.</h4>
+            <h5 className="heroText">A modern data engineering platform.<br/> </h5>
+            <h4 className="heroSubText">Simplify your workflows and save time managing Spark/Hadoop jobs. Integrates with AWS EMR and GCP Dataproc.</h4>
 
             <div className="heroButtons">
               <div style={{display: "inline-block", margin: "10px 20px 10px 0px"}}>
@@ -33,7 +33,7 @@ class Header extends React.Component {
             </div>
           </div>
           <div className="heroRight">
-            <img className="gif" src="/static/animation.svg" />
+            <img className="gif" src="/static/aida_screenshot.png" />
           </div>
         </div>
       </div>

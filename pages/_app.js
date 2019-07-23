@@ -19,7 +19,7 @@ export default class MyApp extends App {
     return (
       <Container>
         <Head>
-          <title> Aida Labs - Hosted Clusters for your Spark Applications </title>
+          <title> Aida Labs - Managed Clusters for your Spark Applications </title>
           <link
             href="https://fonts.googleapis.com/css?family=Rubik"
             rel="stylesheet"

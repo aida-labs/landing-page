@@ -29,9 +29,9 @@ class Header extends React.Component {
               <Nav.Link style={{color: "white"}}  href="https://discord.gg/p3UdqS8">Discord</Nav.Link>
             </Nav>
             <Nav style={{color: "white", paddingRight: 10}} >
-              <Nav.Link style={{color: "white"}}  href="https://app.aidalabs.io/login">Log In</Nav.Link>
+              <Nav.Link style={{marginLeft: "4px", color: "#00CC66", fontFamily: "'Rubik Medium', sans-serif"}}  href="https://app.aidalabs.io/login">Log in</Nav.Link>
             </Nav>
-            <Button href="https://app.aidalabs.io/signup" style={{color: "white", backgroundColor: "#00CC66", border: "none"}}>Sign Up</Button>
+            {/* <Button href="https://app.aidalabs.io/signup" style={{color: "white", backgroundColor: "#00CC66", border: "none"}}>Sign Up</Button> */}
           </Navbar.Collapse>
         </Navbar>
       </div>

@@ -11,9 +11,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Index() {
   return (
     <div className="landingPage">
+      <div class="hero-bg"></div>
       <Header />
       <Hero />
-      <Video />
+      {/* <Video /> */}
       <SignUp />
       <Footer />
 
