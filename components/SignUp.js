@@ -23,7 +23,7 @@ class SignUp extends React.Component {
         {/* <hr style={{color: "#6CBEFB", backgroundColor: "#6CBEFB", height: 1, width: 100}}/> */}
         <hr style={{color: "#272822", backgroundColor: "rgba(15, 16, 13, .1)", height: 1, width: 236}}/>
         {/* <h6 style={{color:"white"}}>Let us handle the tedious stuff</h6> */}
-        <h6 style={{color:"#272822"}}>Let us handle simplify the tedious stuff</h6>
+        <h6 style={{color:"#272822"}}>Let us simplify the tedious stuff</h6>
         <div style={{marginTop: 15}}>
           <Button size="md" href="https://app.aidalabs.io/signup" style={{color: "white", backgroundColor: "#00CC66", border: "none", width: 200, height: 50, lineHeight: "35px"}}>Get started for free</Button>
         </div>
