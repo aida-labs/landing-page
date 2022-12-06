@@ -23,7 +23,7 @@
     "@u-wave/react-vimeo": "^0.8.1",
     "@zeit/next-css": "^1.0.1",
     "bootstrap": "^4.3.1",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-http-to-https": "^1.1.4",
     "next": "^9.0.0",
     "react": "^16.8.6",
